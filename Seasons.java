@@ -25,6 +25,7 @@ public class Main {
             else if (month <= 0 || month > 12){
                 System.out.println("Enter an integer in range [1-12]");
             }
+            scanner.close();
         }
         catch (Exception e) {
             System.out.println("Invalid data. Enter an integer instead");
