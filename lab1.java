@@ -55,7 +55,7 @@ public class HelloWorld {
 
         }
 
-        scanner.close()
+        scanner.close();
         catch(Exception e){
             System.out.println("Invalid data. Enter an integer instead");
             }
